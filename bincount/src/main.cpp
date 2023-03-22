@@ -9,7 +9,7 @@ int count = 4;
 void setup() {
   // configure pins
   DDRB |= ((1<<DDB4) | (1<<DDB5) | (1<<DDB6) | (1<<DDB7)); //configure pins to output
-  PORTB &= ~((1<<RED) | (1<<WHITE) | (1<<GREEN) | (1<<YELLOW)); //inicialize pins with 0
+  PORTB &= ~((1<<RED) | (1<<WHITE) | (1<<GREEN) | (1<<YELLOW)); //initialize pins with 0
   DDRH |= (0<<DDH6); //configure pushbutton
   PORTH |= (1<<PH6); //configure pullup
 }
